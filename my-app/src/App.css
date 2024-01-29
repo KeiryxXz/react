@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+.title {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.button {
+    width: 100%;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+}
